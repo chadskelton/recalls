@@ -5,6 +5,7 @@ from datetime import datetime
 import requests
 from BeautifulSoup import BeautifulSoup
 import re
+import scraperwiki
 
 def scrape_recallpage(url):
     
