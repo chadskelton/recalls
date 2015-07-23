@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-
+'''
 import time
 from datetime import datetime
 import requests
 from BeautifulSoup import BeautifulSoup
 import re
+'''
 
 def scrape_recallpage(url):
     
