@@ -2,8 +2,8 @@
 
 import time
 from datetime import datetime
-import requests==1.0.4
-from BeautifulSoup==3.2.0 import BeautifulSoup
+import requests
+from BeautifulSoup import BeautifulSoup
 import re
 
 def scrape_recallpage(url):
