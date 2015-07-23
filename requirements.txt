@@ -1,12 +1,10 @@
-# It's easy to add more libraries or choose different versions. Any libraries
-# specified here will be installed and made available to your morph.io scraper.
-# Find out more: https://morph.io/documentation/python
-
-# Custom version of scraperwiki library
+# Install custom version of scraperwiki library
 -e git+http://github.com/openaustralia/scraperwiki-python.git@morph_defaults#egg=scraperwiki
 
-lxml==3.4.4
-cssselect==0.9.1
+# numpy, gemsim, matplotlib, pandas, scipy are commented out because
+# all those libraries require numpy
+# it looks like the python heroku buildpack doesn't support the installation of numpy
+
 BeautifulSoup==3.2.0
 beautifulsoup4==4.1.3
 mechanize==0.2.5
