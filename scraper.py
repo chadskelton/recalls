@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import scraperwiki
 import time
 from datetime import datetime
 import requests
