@@ -52,8 +52,8 @@ def scrape_recallpage(url):
     
     print record
     
-    scraperwiki.sqlite.save(['uniqueid'], record)
-
+    # scraperwiki.sqlite.save(['uniqueid'], record)
+    scraperwiki.sqlite.save(unique_keys=['uniqueid'], data=record)
     time.sleep(3)
 
 def scrape_foodyears(url): # in case page changes
