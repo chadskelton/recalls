@@ -54,7 +54,7 @@ def scrape_recallpage(url):
     print record
     
     # scraperwiki.sqlite.save(['uniqueid'], record)
-    scraperwiki.sqlite.save(unique_keys=['uniqueid'], data=record)
+    scraperwiki.sqlite.save(unique_keys=['uniqueid'], data=record) # this syntax is slightly different on morphio than new ScraperWiki
     time.sleep(3)
 
 def scrape_foodyears(url): # in case page changes
