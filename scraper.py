@@ -77,7 +77,7 @@ def scrape_foodyears(url): # in case page changes
         except:
             print 'Recall page scrape failed. Probably advisory page.'
     
-years = ['2011'] # removed 2015, 2014, 2013 and 2012 because timed out
+years = ['2015', '2014', '2013', '2012', '2011'] # added 2015, 2014, 2013 and 2012 back in because on morphio now
 
 for year in years:
     print year
